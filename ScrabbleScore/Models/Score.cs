@@ -17,7 +17,12 @@ namespace ProjectName.Models
 
     public int WordScore(string word)
     {
-      return -1;
+      int Score = 0;
+      foreach(char letter in word)
+      {
+        Score += LetterValue(letter.ToString());
+      }
+      return Score;
     }
   }
 }

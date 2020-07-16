@@ -36,7 +36,7 @@ namespace ProjectName.Tests
     {
       Score newScore = new Score();
       int result = newScore.WordScore("MUZJIKS");
-      Assert.AreEqual(33, result);
+      Assert.AreEqual(29, result);
     }
   }
 }
