@@ -22,5 +22,13 @@ namespace ProjectName.Tests
       Dictionary<string, int> result = newScore.LetterScores;
       CollectionAssert.AreEqual(testLetterScores, result);
     }
+
+    [TestMethod]
+    public void LetterValue_GetLetterScore_Int()
+    {
+      Score newScore = new Score();
+      int result = newScore.LetterValue("A");
+      Assert.AreEqual(1, result);
+    }
   }
 }
