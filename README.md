@@ -21,12 +21,12 @@ Console application that takes a word and returns the Scrabble score for that wo
 ## Specifications
 | Spec | Input | Output | Test Result
 |:------------|:-----------|:----------------|:-------------|
-| The program will accept a string from the user | "Bear" | no output | |
-| The program will split the string | "Bear" | "B - e - a - r" | |
-| The program will evaluate each letter against a key | "B" | "B : 3" | |
-| The program will assign a value to each letter | B E A R | 3 1 1 1 | |
-| The program will add the numbers for that word | 3+1+1+1 | 6 | |
-| The program will return the score for the word | Bear | 6 points | |
+| The program will accept a string from the user | "Bear" | no output | Passed |
+| The program will split the string | "Bear" | "B - e - a - r" | Unnecessary |
+| The program will evaluate each letter against a key | "B" | "B : 3" | Passed |
+| The program will assign a value to each letter | B E A R | 3 1 1 1 | Passed |
+| The program will add the numbers for that word | 3+1+1+1 | 6 | Passed |
+| The program will return the score for the word | Bear | 6 points | Passed |
 
 
 

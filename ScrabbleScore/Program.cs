@@ -1,4 +1,5 @@
 using System;
+using ProjectName.Models;
 
 namespace ProjectName
 {
@@ -7,7 +8,10 @@ namespace ProjectName
     public static void Main()
     {
       Console.WriteLine("Please enter your Scrabble word:");
-      string userInput = Console.ReadLine();
+      string userInput = Console.ReadLine().ToUpper();
+      Score newScore = new Score();
+      int result = newScore.WordScore(userInput);
+      Console.WriteLine("The word's Scrabble score is: " + result);
     }
   }
 }
