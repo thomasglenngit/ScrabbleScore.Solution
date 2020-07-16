@@ -14,5 +14,10 @@ namespace ProjectName.Models
       int score = LetterScores[letterValue];
       return score;
     }
+
+    public int WordScore(string word)
+    {
+      return -1;
+    }
   }
 }

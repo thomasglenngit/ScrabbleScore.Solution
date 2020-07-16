@@ -30,5 +30,13 @@ namespace ProjectName.Tests
       int result = newScore.LetterValue("A");
       Assert.AreEqual(1, result);
     }
+
+    [TestMethod]
+    public void WordScore_GetWordScore_Int()
+    {
+      Score newScore = new Score();
+      int result = newScore.WordScore("MUZJIKS");
+      Assert.AreEqual(33, result);
+    }
   }
 }
