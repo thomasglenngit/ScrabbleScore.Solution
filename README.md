@@ -5,9 +5,28 @@
 #### By **Sara Kane, Thomas Glenn**
 
 ## Description
+Console application that takes a word and returns the Scrabble score for that word.
 
+| Letter                       | Score |
+|------------------------------|-------|
+| A, E, I, O, U, L, N, R, S, T |   1   |
+| D, G                         |   2   |
+| B, C, M, P                   |   3   |
+| F, H, V, W, Y                |   4   |
+| K                            |   5   |
+| J, X                         |   8   |
+| Q, Z                         |   10  |
 
 ## Specifications
+| Spec | Input | Output | Test Result
+|:------------|:-----------|:----------------|:-------------|
+| The program will accept a string from the user | "Bear" | no output | |
+| The program will split the string | "Bear" | "B - e - a - r" | |
+| The program will evaluate each letter against a key | "B" | "B : 3" | |
+| The program will assign a value to each letter | B E A R | 3 1 1 1 | |
+| The program will add the numbers for that word | 3+1+1+1 | 6 | |
+| The program will return the score for the word | Bear | 6 points | |
+
 
 
 ## Known Bugs
