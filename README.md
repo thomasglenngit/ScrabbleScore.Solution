@@ -17,6 +17,7 @@ Console application that takes a word and returns the Scrabble score for that wo
 | J, X                         |   8   |
 | Q, Z                         |   10  |
 
+
 ## Specifications
 | Spec | Input | Output | Test Result
 |:------------|:-----------|:----------------|:-------------|
