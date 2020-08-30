@@ -1,8 +1,11 @@
-# _Scrabble Score_
+<h1 align='center'><img width='900' height='450' src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Scrabble_2015.jpg/1200px-Scrabble_2015.jpg'><br>
 
-#### _C#/.NET Project for [Epicodus](https://www.epicodus.com/), 2020.07.16_
 
-#### By **Sara Kane, Thomas Glenn**
+**<h1 align = 'center'>Scrabble Score**
+
+
+*<h2 align ='center'>C#/.NET Project for [Epicodus](https://www.epicodus.com/), 2020.07.16.*
+
 
 ## Description
 Console application that takes a word and returns the Scrabble score for that word.
@@ -61,5 +64,16 @@ Once the repository has been cloned, navigate to the to the application director
 * Visual Studio Code (code editor)
 * C#/.NET
 
-## License
-This software is licensed under the MIT license. Copyright (c) 2020 Sara Kane, Thomas Glenn.
+# **❤️Contributors**
+
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/sara-kane.jpeg' width='160px;'/><br /><sub><b>Sara Kane</b></sub>](https://www.linkedin.com/in/sarakaneportland/)<br />
+
+[<img src='https://coding-assets.s3-us-west-2.amazonaws.com/linked-in-images/thomas-glenn.jpeg' width='160px;'/><br /><sub><b>Thomas Glenn</b></sub>](https://www.linkedin.com/in/glennergy/)<br />
+
+<br>
+
+<br>
+
+![alt text][logo]
+
+[logo]: https://img.shields.io/bower/l/bootstrap 'MIT License' Copyright (c) 2020 Sara Kane, Thomas Glenn.
